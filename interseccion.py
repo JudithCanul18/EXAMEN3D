@@ -34,8 +34,8 @@ def plotPlaneLine(xg,yg,zg,xh,yh,xhg,yhg,hitcolor):
     plt.grid(False)
     plt.plot([xg[0],xg[1]],[yg[0],yg[1]],color='k')#plano
     plt.plot([xg[1],xg[2]],[yg[1],yg[2]],color='k')
-    plt.plot([xg[2],xg[3]],[yg[2],yg[3]],color='k')
-    plt.plot([xg[3],xg[0]],[yg[3],yg[0]],color='k')
+    plt.plot([xg[2],xg[1]],[yg[2],yg[3]],color='k')
+    #plt.plot([xg[3],xg[0]],[yg[3],yg[0]],color='k')
     plt.plot([xg[4],xg[5]],[yg[4],yg[5]],color='b')#Line
 
     if hitcolor=='g':# Do not touch hit point
